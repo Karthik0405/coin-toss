@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.coin-toss-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 60px;
+}
+
+.coin-toss-heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-heading {
+    font-size: 46px;
+  }
+}
+
+.coin-toss-para {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-para {
+    font-size: 20px;
+  }
+}
+.toss-image {
+  width: 200px;
+  margin-bottom: 25px;
+}
+.toss-button {
+  border-style: none;
+  border-radius: 6px;
+  background-color: #f9d423;
+  width: 100px;
+  height: 30px;
+  color: #a35200;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  width: 300px;
+}
+
+@media screen and (min-width: 767px) {
+  .count-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.count-para {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 767px) {
+  .count-para {
+    font-size: 20px;
+  }
+}
